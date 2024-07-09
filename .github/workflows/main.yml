@@ -8,7 +8,7 @@ on:
 
 jobs:
   php-cs:
-    runs on:
+    runs on: windows
     steps:
       - name: Checkout the repo
         uses: actions/checkout@v3
